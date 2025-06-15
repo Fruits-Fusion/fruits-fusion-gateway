@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { OrdersController } from './orders.controller';
 import { ClientsModule, Transport } from '@nestjs/microservices';
-import enviroment from '../config/configuration';
+import enviroment from '../config/env.config';
 
 @Module({
   controllers: [OrdersController],
