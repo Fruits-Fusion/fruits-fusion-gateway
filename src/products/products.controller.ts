@@ -15,7 +15,7 @@ import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
 import { PaginationDto } from '../common';
 import { catchError } from 'rxjs';
-import enviroment from '../config/configuration';
+import enviroment from '../config/env.config';
 
 @Controller('v1/products')
 export class ProductsController {
